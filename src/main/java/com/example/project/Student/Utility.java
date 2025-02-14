@@ -5,7 +5,6 @@ import java.util.Arrays;
 public class Utility {
 
     public static ArrayList<Student> sortStudents(ArrayList<Student> list) {
-        
         for (int i = 0; i < list.size() - 1; i++) {
             for (int j = 0; j < list.size() - 1 - i; j++) {
                 Student student1 = list.get(j);
